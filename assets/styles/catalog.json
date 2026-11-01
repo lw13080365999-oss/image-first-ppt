@@ -1,0 +1,388 @@
+{
+  "schema_version": "1.0",
+  "title": "image-first-ppt 风格标本",
+  "asset_kind": "design-specimens",
+  "generation_method": "programmatic SVG composition; not generated or validated by an image model",
+  "scope": "用于风格选择与 image 设计参考；不是生成完成的PPT、数据证据或程序化套版路径。",
+  "sample_content": {
+    "theme": "社区阅读计划",
+    "cover_title": "让阅读成为日常",
+    "content_title": "从发现到分享",
+    "content_subtitle": "三个连续环节",
+    "steps": [
+      {
+        "title": "发现主题",
+        "caption": "选定问题"
+      },
+      {
+        "title": "共同阅读",
+        "caption": "记录片段"
+      },
+      {
+        "title": "分享观点",
+        "caption": "交换看法"
+      }
+    ],
+    "data_title": "参与方式对比",
+    "data_unit": "示例份额（%）",
+    "data": [
+      {
+        "label": "共同阅读",
+        "value": 40
+      },
+      {
+        "label": "主题分享",
+        "value": 35
+      },
+      {
+        "label": "自由交流",
+        "value": 25
+      }
+    ],
+    "data_status": "synthetic demonstration; not survey results"
+  },
+  "preview": {
+    "gallery": "gallery.html",
+    "format": "SVG",
+    "width": 1568,
+    "height": 412,
+    "slide_frame": {
+      "width": 480,
+      "height": 270,
+      "ratio": "16:9"
+    },
+    "embedded_fonts": false,
+    "external_resources": false
+  },
+  "font_resolution": {
+    "policy": "Select installed fonts for the current authoring and delivery target, verify glyph coverage, then render. Candidate names are not availability guarantees. Do not install fonts silently.",
+    "preview_sans_stack": "Heiti SC, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial Unicode MS, Arial, sans-serif",
+    "preview_serif_stack": "Songti SC, STSong, SimSun, Noto Serif CJK SC, Georgia, serif",
+    "profiles": {
+      "clear-sans": {
+        "character": "清楚的中文无衬线与中性拉丁字",
+        "zh_candidates": [
+          "PingFang SC",
+          "Heiti SC",
+          "Microsoft YaHei",
+          "Noto Sans CJK SC",
+          "Arial Unicode MS"
+        ],
+        "latin_candidates": [
+          "Arial",
+          "Helvetica",
+          "Aptos",
+          "Noto Sans"
+        ]
+      },
+      "editorial-serif": {
+        "character": "衬线标题与清楚正文的角色对比",
+        "zh_heading_candidates": [
+          "Songti SC",
+          "STSong",
+          "SimSun",
+          "Noto Serif CJK SC"
+        ],
+        "zh_body_candidates": [
+          "PingFang SC",
+          "Heiti SC",
+          "Microsoft YaHei",
+          "Noto Sans CJK SC"
+        ],
+        "latin_heading_candidates": [
+          "Georgia",
+          "Times New Roman",
+          "Noto Serif"
+        ],
+        "latin_body_candidates": [
+          "Arial",
+          "Helvetica",
+          "Aptos",
+          "Noto Sans"
+        ]
+      }
+    }
+  },
+  "styles": [
+    {
+      "id": "business-clear",
+      "name": "清晰商务",
+      "tagline": "开放对齐 · 非对称分区 · 清楚比较",
+      "palette": {
+        "background": "#F8FAFC",
+        "text": "#17313B",
+        "muted": "#637881",
+        "primary": "#176B79",
+        "accent": "#E8AA42",
+        "surface": "#E6F1F2"
+      },
+      "jobs": [
+        "通用报告",
+        "方案",
+        "产品说明"
+      ],
+      "composition": "图文非对称分区、开放式对齐；正文沿单一路径推进，数据使用直接比较。",
+      "texture": "平面低装饰，必要时使用轻色面，不依赖重阴影。",
+      "number": "01",
+      "specimen": "business-clear.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "clear-sans",
+      "prompt_block": "视觉方向：清晰商务。构图：图文非对称分区、开放式对齐；正文沿单一路径推进，数据使用直接比较。 质感：平面低装饰，必要时使用轻色面，不依赖重阴影。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "editorial",
+      "name": "杂志编辑",
+      "tagline": "非均分栏 · 字体对比 · 细线与留白",
+      "palette": {
+        "background": "#F5F0E6",
+        "text": "#282B2A",
+        "muted": "#76736B",
+        "primary": "#42554B",
+        "accent": "#B45C41",
+        "surface": "#DDD5C6"
+      },
+      "jobs": [
+        "阅读型分析",
+        "故事案例",
+        "文化介绍"
+      ],
+      "composition": "细线和非均分栏建立层级；大标题、跨栏语句与局部大数字形成节奏。",
+      "texture": "暖纸面，克制印刷感，平面结构。",
+      "number": "02",
+      "specimen": "editorial.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "editorial-serif",
+      "prompt_block": "视觉方向：杂志编辑。构图：细线和非均分栏建立层级；大标题、跨栏语句与局部大数字形成节奏。 质感：暖纸面，克制印刷感，平面结构。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "swiss-minimal",
+      "name": "瑞士网格",
+      "tagline": "少量大平面 · 精确轴线 · 显著留白",
+      "palette": {
+        "background": "#FFFFFF",
+        "text": "#151719",
+        "muted": "#676B70",
+        "primary": "#E7402D",
+        "accent": "#E7402D",
+        "surface": "#EFEFED"
+      },
+      "jobs": [
+        "简洁演讲",
+        "设计介绍",
+        "观点展示"
+      ],
+      "composition": "少量大尺度平面、非对称分区、精确对齐和超大数字；用负空间强化焦点。",
+      "texture": "严格平面、硬边，无装饰阴影。",
+      "number": "03",
+      "specimen": "swiss-minimal.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "clear-sans",
+      "prompt_block": "视觉方向：瑞士网格。构图：少量大尺度平面、非对称分区、精确对齐和超大数字；用负空间强化焦点。 质感：严格平面、硬边，无装饰阴影。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "dark-tech",
+      "name": "暗色科技",
+      "tagline": "深底光场 · 路径与网格 · 明暗层级",
+      "palette": {
+        "background": "#0D1727",
+        "text": "#EFF8FF",
+        "muted": "#A0B5C5",
+        "primary": "#65DED0",
+        "accent": "#8D9CFF",
+        "surface": "#1E3445"
+      },
+      "jobs": [
+        "技术流程",
+        "产品演示",
+        "数字系统"
+      ],
+      "composition": "深色场景中突出主路径或主对象；局部光色、稀疏网格和清楚的阅读方向。",
+      "texture": "暗色渐变与少量局部高光，保持正文高对比。",
+      "number": "04",
+      "specimen": "dark-tech.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "clear-sans",
+      "prompt_block": "视觉方向：暗色科技。构图：深色场景中突出主路径或主对象；局部光色、稀疏网格和清楚的阅读方向。 质感：暗色渐变与少量局部高光，保持正文高对比。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "academic",
+      "name": "学术证据",
+      "tagline": "证据优先 · 准确标注 · 公式空间",
+      "palette": {
+        "background": "#FFFFFF",
+        "text": "#202C3D",
+        "muted": "#687480",
+        "primary": "#284E75",
+        "accent": "#A3483E",
+        "surface": "#EAF0F6"
+      },
+      "jobs": [
+        "研究报告",
+        "方法解释",
+        "数据讨论"
+      ],
+      "composition": "标题、证据、解释和来源层级明确；证据图占合理主面积，图表保留坐标与注释。",
+      "texture": "白纸面与细线，装饰低密度，为复杂公式预留空间。",
+      "number": "05",
+      "specimen": "academic.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "editorial-serif",
+      "prompt_block": "视觉方向：学术证据。构图：标题、证据、解释和来源层级明确；证据图占合理主面积，图表保留坐标与注释。 质感：白纸面与细线，装饰低密度，为复杂公式预留空间。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "warm-teaching",
+      "name": "温暖教学",
+      "tagline": "柔和纸面 · 编号路径 · 友好解释",
+      "palette": {
+        "background": "#FCF4E8",
+        "text": "#463D35",
+        "muted": "#7D7166",
+        "primary": "#5D8068",
+        "accent": "#D57C52",
+        "surface": "#EEDBC0"
+      },
+      "jobs": [
+        "教学",
+        "培训",
+        "科普与入门讲解"
+      ],
+      "composition": "以编号、示例、路径和小型说明插画分步建立理解；留出解释空间。",
+      "texture": "暖纸面、柔和形状，轻微手作感；不让装饰降低阅读性。",
+      "number": "06",
+      "specimen": "warm-teaching.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "clear-sans",
+      "prompt_block": "视觉方向：温暖教学。构图：以编号、示例、路径和小型说明插画分步建立理解；留出解释空间。 质感：暖纸面、柔和形状，轻微手作感；不让装饰降低阅读性。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "creative-poster",
+      "name": "创意海报",
+      "tagline": "超大字 · 强比例 · 有意破格",
+      "palette": {
+        "background": "#F36E3D",
+        "text": "#182D63",
+        "muted": "#273A66",
+        "primary": "#182D63",
+        "accent": "#FBEA65",
+        "surface": "#FBEBCA"
+      },
+      "jobs": [
+        "发布",
+        "创意提案",
+        "活动与视觉展示"
+      ],
+      "composition": "大字、剪切平面、对角或阶梯节奏和少量跨区元素；保持主要阅读顺序。",
+      "texture": "平面印刷感、硬边与强色块；装饰让位于内容。",
+      "number": "07",
+      "specimen": "creative-poster.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "clear-sans",
+      "prompt_block": "视觉方向：创意海报。构图：大字、剪切平面、对角或阶梯节奏和少量跨区元素；保持主要阅读顺序。 质感：平面印刷感、硬边与强色块；装饰让位于内容。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    },
+    {
+      "id": "data-journalism",
+      "name": "数据新闻",
+      "tagline": "注释主导 · 直接比较 · 紧凑证据",
+      "palette": {
+        "background": "#F8F6EF",
+        "text": "#232B2F",
+        "muted": "#6D7476",
+        "primary": "#287C87",
+        "accent": "#C16B3F",
+        "surface": "#DEDFD9"
+      },
+      "jobs": [
+        "数据简报",
+        "事实说明",
+        "趋势分析"
+      ],
+      "composition": "直接标注、横向比较、微型图和来源行组织证据；标题和注释帮助读者理解比较口径。",
+      "texture": "报刊式浅纸面、细线与节制强调，不使用无意义仪表盘。",
+      "number": "08",
+      "specimen": "data-journalism.svg",
+      "preview_kind": "programmatic-svg-design-specimen",
+      "sample_roles": [
+        "cover",
+        "content",
+        "data"
+      ],
+      "font_profile": "clear-sans",
+      "prompt_block": "视觉方向：数据新闻。构图：直接标注、横向比较、微型图和来源行组织证据；标题和注释帮助读者理解比较口径。 质感：报刊式浅纸面、细线与节制强调，不使用无意义仪表盘。 保留实际内容、真实数据关系与可读性；单页按任务变化，不复制示例文字。",
+      "avoid": [
+        "复制标本的虚构文字或数字",
+        "为了对称改变真实语义",
+        "让装饰削弱文字和证据可读性"
+      ]
+    }
+  ]
+}
